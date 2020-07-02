@@ -1,0 +1,184 @@
+@charset 'utf-8';
+boby{
+	font-family: 'century Gthic' , calibri,seif;
+	font-size: 13px;
+	margin: 0px;
+	padding:0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align:center;
+}
+
+header{
+	height: 100px;
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align:center;
+	background-color:#cscscd;
+	border-top: 2px #AAA;
+}
+
+magi{
+	width: 100px;
+	background-color:A24500;
+}
+
+nav l1{
+	list-style-type: nome;
+	float:left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: nome;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+	
+}
+
+.menu-ind:hover, .preséntátion{
+	border-top:5px solid #4C6;
+	background-color:RGBa(64,200,130,0,.15);
+}
+.menu-exp:hover, .parcours{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+} 
+
+.menu-hob:hover, .compéténces{
+	border-top:5px solid #007888;
+	background-color:RGBa(000,112,192,0.15);
+}
+.menu-con:hover{
+	border-top: 5px solid  #e44d26;
+background-color:RGBa(228,77,38,0.15);
+}
+section{
+	width: 100x;
+	min-height: 300x;
+	padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sec{
+	margin: 0px 10px;
+}
+.sec 1mg{
+	width: 30%;
+	height:300px;
+}
+.left{
+	float: left;
+	width: 40%;
+}
+.left 1mg{
+	width: inheric;
+}
+.right{
+	float: luft;
+	width: 60%;
+}
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%;
+	float: left;
+}
+.sec::after,exp::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: rgba(70,240,80,0.15);
+}
+.bleu{
+	border-top: 5px solid #f3e241;
+	background-color: rgba(240,255,69,0.15);
+}
+.jaune{
+	border-top: 5px solid #29c;
+	background-color: rgba(30,152,212,0.15);
+}
+.rouge{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228,77,38,0.15);
+}
+.presentation_acceuil{
+	border-collapse: collapse;
+	font-size: 45px;
+}
+.presentation_acceuil{
+	border: 10px solid black;
+}
+.bjpc_bsn{
+.bloc_btn{
+	margin-top: 10%;
+	height: 70px;
+	wiedth: 300px;
+	line-height: black;
+}
+.bloc_btn:hover{
+	cursor:pointer;
+}
+.bloc_btn a{
+	text-decoration:none;
+	color: white;
+}
+.table_cœmpetences{
+	width: 50%;
+	margin:0 auto;
+	}
+.table_competences td{
+	border-bottom: 1px solid black;
+}
+presentation_competencees{
+	margin-top: 5%;
+}
+@media screen and(max-width: 780px){
+	header{
+	    height: 50px;
+	}
+      h1{
+	      font-size: 28px;
+	      margin: 20px 0px 0px 0px;
+	  }  
+      nav li a{
+	      font-size: 12px;
+	      padding: 10px;
+      }
+      nav li:hover a{
+      padding: 5px 10px 10px 10px;
+      }
+      left{
+	      float: left;
+	      width: 50%;
+      }
+	  .right{
+		  float: left;
+	      width: 50%
+	  }
+	@media screen and (max-width: 565px){
+		#heard_left{
+			float: left;
+			width:60%;
+		}
+		#heard_right{
+			float: left;
+			width: 40%;
+		}
+		.presentation_acceuil{
+			font-size: 20px;
+		}
+	}	
